@@ -71,7 +71,7 @@ export default {
   - kakao_login_btn_medium
   - kakao_login_btn_small_ov
   - kakao_login_btn_small
- 기본값: `kakao_account_login_btn_medium_wide`
+  - 기본값: `kakao_account_login_btn_medium_wide`
 - `componentStyle` _[object]_ - 우편번호 검색창에 미리 표시할 검색어입니다. 기본값: `null`
 - `script-url` _[string]_ - 컴포넌트에서 사용할 카카오 API 주소입니다. 기본값: `'https://developers.kakao.com/sdk/js/kakao.min.js'`
 - `error-message` _[string]_ - 로드되지 않을 때 나타낼 에러 메시지입니다. 기본값: `현재 카카오 로그인 서비스를 이용할 수 없습니다. 잠시 후 다시 시도해주세요.`
