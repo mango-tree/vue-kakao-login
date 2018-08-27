@@ -1,14 +1,20 @@
 {
   "name": "vue-kakao-login",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "kakao login component made by Vue component",
-  "author": { "name": "mango-tree", "email": "k.mingyu.95@gmail.com", "url": "http://mango-tree.github.io" },
+  "author": {
+    "name": "mango-tree",
+    "email": "k.mingyu.95@gmail.com",
+    "url": "http://mango-tree.github.io"
+  },
   "private": false,
   "main": "./lib/vue-kakao-login.js",
   "scripts": {
     "build": "webpack --config ./webpack.config.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "url-loader": "^1.1.1"
+  },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",

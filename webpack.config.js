@@ -21,6 +21,10 @@ var config = {
       {
         test: /\.css$/,
         loader: 'style!less!css'
+      },
+      {
+        test: /\.png$/,
+        loader: 'url-loader',
       }
     ]
   },
