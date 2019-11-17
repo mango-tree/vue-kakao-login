@@ -3,7 +3,6 @@
     v-on:click=loginWithKakao
     v-bind:style="[componentStyle]">
     <img :src="getPic()"/>
-    <!-- <div :style="`backgroundImage: require(assets/login/kr/kakao_account_login_btn_medium_wide.png);`"/> -->
   </div>
 </template>
 <script>
@@ -82,12 +81,7 @@ export default {
     return {
       images: [],
       getPic() {
-        // return Image
-        // let images = require.context('../assets/', false, /\.png$/)
-        // console.log(images)
-        // return ""
-        return require("./assets/login/kr/kakao_account_login_btn_medium_wide.png")
-        // return require('./assets/login/'+this.language+'/'+this.image+'.png');
+        return require('./assets/login/'+this.language+'/'+this.image+'.png');
       },
       initiate: (comp) => {
         Kakao.init(comp.apiKey);
