@@ -1,10 +1,10 @@
 {
   "name": "vue-kakao-login",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "kakao login component made by Vue component",
   "author": {
     "name": "mango-tree",
-    "email": "k.mingyu.95@gmail.com",
+    "email": "contact@mingyu.kim",
     "url": "http://mango-tree.github.io"
   },
   "private": false,
